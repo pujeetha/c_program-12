@@ -1,0 +1,19 @@
+#include <stdio.h>
+void vowel()
+{
+    char c;
+    printf("enter a character:");
+    scanf("%c",&c);
+    if(c=='a'||c=='e'||c=='i'||c=='o'||c=='u')
+    {
+        printf("it is a vowel");
+    }
+    else
+    {
+        printf("it is a consonent");
+    }
+}
+int main()
+{
+    vowel();
+}
